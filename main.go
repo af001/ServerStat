@@ -313,6 +313,6 @@ func main() {
 	survey.Process = z
 
 	file, _ := json.MarshalIndent(survey, "", " ")
-	_ = ioutil.WriteFile(*logfile, file, 0644)
+	_ = ioutil.WriteFile(*logfile, file, 0644) 
 }
 

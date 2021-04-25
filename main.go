@@ -33,9 +33,9 @@ type Survey struct {
 	Device   		string
 	MacAddress		string
 	Uptime 			string
-	CPU				CPU
+	CPU			CPU
 	Memory 			Memory
-	LoadAverage 	LoadAverage
+	LoadAverage		LoadAverage
 	Network 		[]Interface
 	Filesystem 		[]Filesystem
 	Process 		[]Process
@@ -240,7 +240,7 @@ func main() {
 
 			if *debug {
 				fmt.Printf("Interface: %d Name: %s Rx: %s bytes Tx: %s bytes\n", n,
-					s.Name, human.Bytes(s.RxBytes), human.Bytes(s.TxBytes))
+					   s.Name, human.Bytes(s.RxBytes), human.Bytes(s.TxBytes))
 			}
 		}
 	}

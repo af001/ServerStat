@@ -122,3 +122,7 @@ PID     PPID    Executable
 }
 
 ```
+#### Working
+* Diff file system to look for changes in the filesystem
+* Kernal / OS info
+* Startup scripts
